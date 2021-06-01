@@ -8,5 +8,11 @@ Currently, the accuracy of the model is around 70%. It can recognise the emotion
 The RAVDESS dataset has been used in this project. It was a total of 8 emotions out of which I pick and chose 4 emotions on which the current model has been trained.
 
 <h3>Features </h3>
-The model extracted features of speech recognition like MFCC, Chroma, Mel, Spectral Contrast and Zero Crossing Rate. It was found that there is not much change in the accuracy of the model with Spectral contrast and zero crossing rate.
+The model extracted features of speech recognition like MFCC, Chroma, Mel, Spectral Contrast and Zero Crossing Rate.<br>It was found that there is not much change in the accuracy of the model with Spectral contrast and zero crossing rate.
+
+<h3>Model </h3>
+The model used was mlpClassifier since this was a classification problem. The hyperparameters for the model were tuned using GridSearchCV.
+
+<h3>Improvements</h3>
+I'm planning on trying out other models with the dataset like Random Forest to see if I get increased accuracy.
 
